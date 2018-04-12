@@ -13,4 +13,4 @@
 
 package ecr
 
-//go:generate mockgen.sh github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api ClientFactory,Client mocks/ecr_mocks.go
+//go:generate mockgen.sh github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/api ClientFactory,Client mocks/ecr_mocks.go

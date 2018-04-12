@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - ./scripts/hack/symlink-gopath-codebuild.sh
-      - cd /go/src/github.com/awslabs/amazon-ecr-credential-helper
+      - cd /go/src/github.com/moonwalker/amazon-ecr-credential-helper
   pre_build:
     commands:
       - echo "Starting tests..."

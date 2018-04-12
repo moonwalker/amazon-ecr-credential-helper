@@ -17,9 +17,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
 	log "github.com/cihub/seelog"
 	"github.com/docker/docker-credential-helpers/credentials"
+	"github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/api"
 )
 
 var notImplemented = errors.New("not implemented")

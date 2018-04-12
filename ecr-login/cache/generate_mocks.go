@@ -13,4 +13,4 @@
 
 package cache
 
-//go:generate mockgen.sh github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cache CredentialsCache mocks/cache_mocks.go
+//go:generate mockgen.sh github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/cache CredentialsCache mocks/cache_mocks.go

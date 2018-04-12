@@ -14,11 +14,11 @@
 package main
 
 import (
-	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/config"
 	log "github.com/cihub/seelog"
 	"github.com/docker/docker-credential-helpers/credentials"
+	ecr "github.com/moonwalker/amazon-ecr-credential-helper/ecr-login"
+	"github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/api"
+	"github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/config"
 )
 
 func main() {

@@ -21,9 +21,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/config"
 	log "github.com/cihub/seelog"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/config"
 )
 
 func BuildCredentialsCache(awsSession *session.Session, region string, cacheDir string) CredentialsCache {

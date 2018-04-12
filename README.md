@@ -37,7 +37,7 @@ To build and install the Amazon ECR Docker Credential Helper, we suggest golang
 You can install this via `go get` with:
 
 ```
-go get -u github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login
+go get -u github.com/moonwalker/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login
 ```
 
 
