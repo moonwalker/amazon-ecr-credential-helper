@@ -12,6 +12,7 @@
 # language governing permissions and limitations under the License.
 
 ROOT := $(shell pwd)
+VERSION=v0.1.0
 
 all: build
 
@@ -76,3 +77,7 @@ get-deps:
 .PHONY: clean
 clean:
 	rm -rf ./bin ||:
+
+release:
+	@git tag -af ${VERSION} -m "Release ${VERSION}" && git push -f origin ${VERSION}
+	@goreleaser --rm-dist

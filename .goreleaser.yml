@@ -1,0 +1,6 @@
+build:
+  binary: docker-credential-ecr-login
+  goos:
+    - linux
+  goarch:
+    - amd64
